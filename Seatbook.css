@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Downloads/j.jpeg);
+    background-size: 1200px 780px;
+    background-position: center;
+    }
+.navbar{
+    display: flex;
+    text-align: right;
+}
+
+.navbar nav ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    
+}
+.navbar nav ul li{
+    width: 120px;
+    height: 40px;
+    margin: 3px 5px;
+    padding: 5px;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar nav ul li 
+{
+color: white;
+outline:none;
+border: none;
+background: transparent;
+cursor: pointer;
+font-family:sans-serif;
+}
+.navbar nav ul li:hover{
+    background: #84e2ee;
+    border-radius: 3px;
+}
+#form
+{ 
+    background-color:black; 
+    height:500px; 
+    width:800px; 
+    margin:auto; 
+    padding:20px; 
+    opacity: 0.6;
+}
+#form i{
+    color: white;
+}
+.container .form .text-white
+{   color: white;
+    font-size: 10px;
+    text-align: center;
+    border-bottom: 2px solid ; 
+    width:210px; 
+    padding: 5px;
+}
+::placeholder
+{ 
+        color:#fff
+}
+#input #input-group
+{ 
+    width:300px; 
+    margin:5px; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    outline: none; 
+    background: transparent; 
+    color:#fff
+}
+#input2 #input-group
+{ 
+     width:195px;
+     margin:5px; 
+     border-top: none; 
+     border-left: none; 
+     border-right: none; 
+     outline: none; 
+     background: transparent; 
+     color:#fff
+}
+#input3 #input-group
+{ 
+    margin-left: 50px;
+}
+#input4 #input-group
+{ 
+    width:300px; 
+    margin:5px; 
+    border-top: none; 
+    border-left: none;
+    border-right: none; 
+    outline: none; 
+    background: transparent; 
+    color:#fff
+}
+#input4 #input-group1
+{
+    width:615px; 
+    margin:5px; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    outline: none; 
+    background: transparent; 
+    color:#fff
+}
+#input5 h3
+{
+     border-bottom: 2px solid #84e2ee; 
+     width:220px; 
+     padding: 5px;
+}
+#input6 #input-group
+{ 
+    width:300px; 
+    margin:5px; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; outline: none; 
+    background: transparent; 
+    color:#fff
+}
+#input6 #input-group1
+{ 
+    width:615px; 
+    margin:5px; 
+    border-top: none; 
+    border-left: none;
+    border-right: none; 
+    outline: none; 
+    background: transparent; 
+    color:#fff
+}
+
