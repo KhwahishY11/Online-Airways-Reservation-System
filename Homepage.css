@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Downloads/j.jpeg);
+    background-size: 1200px 780px;
+    background-position: center;
+    }
+/*.navbar{
+    
+    text-align: right;
+}
+
+
+.navbar nav ul li{
+    width: 120px;
+    margin: 3px 5px;
+    padding: 5px;
+}
+.navbar nav ul li i{
+    text-decoration: none;
+    color: white;
+}
+.navbar nav ul li 
+{
+    display: inline-flex;
+color: black;
+outline:none;
+border: none;
+background: transparent;
+cursor: pointer;
+font-family:sans-serif;
+}
+
+.navbar nav ul li:hover{
+    color: white;
+    background: #050707;
+    border-radius: 3px;
+    opacity: 0.6;
+}*/
+.navbar{
+    
+    text-align: right;
+    height: 40px;
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    
+}
+.navbar  ul li{
+    width: 120px;
+    margin: 3px 1px;
+    padding: 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li 
+{
+color: white;
+outline:none;
+border: none;
+background: transparent;
+}
+.navbar nav ul li:hover{
+    background: rgba(0, 0, 0, 0.616);
+    border-radius: 3px;
+}
+.navbar nav ul li i {
+    color: black;
+}
+.clearfix{
+    overflow: auto;
+}
+.center{
+    padding: 3px 105px;
+    text-align: left;
+    color: white;
+}
+.logo{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: 1px solid black;
+    z-index: 1;
+}
+.clearfix-center .p{
+    color: white;
+    font-size: 10px;
+}
+.row
+{display: flex;
+align-items: center;
+/*flex-wrap: wrap;*/
+justify-content: center;
+}
+/*.col-1
+{
+flex-basis: 10%;
+min-width: 300px;
+}*/
+.form-box
+{width: 400px;
+height: 390px;
+position: relative;
+top: 10px;
+background: rgba(0,0,0,0.6);
+}
+.main-heading
+{
+color: white;
+padding-bottom: 25px;
+}
+.form
+{
+position: relative;
+margin: 0 auto 10px;
+padding: 10px;
+text-align: center;
+}
+.form input
+{
+font-family: sans-serif;
+outline: none;
+border: none;
+border-bottom: 1px solid black;
+width: 100%;
+margin: 0 0 5px;
+padding: 10px;
+font-size: 8px;
+}
+.form button
+{
+font-family: sans-serif;
+width: 100%;
+color: black;
+font-size: 13px;
+cursor: pointer;
+padding: 10px;
+border: none;
+background: #7adce9;
+}
+.form .message
+{
+font-size: 12px;
+margin: 10px 0 0;
+color:rgb(245, 247, 248);
+}
+.form .message a
+{
+	color: white;
+	text-decoration: none;
+}
+.form .register-form{
+	display: none;
+}
