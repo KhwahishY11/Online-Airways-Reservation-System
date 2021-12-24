@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width" ,initial-scale="1.00">
+    <link rel="stylesheet" href="SE Style.css">
+    <script src="https://kit.fontawesome.com/b3f2e102a1.js" crossorigin="anonymous"></script>
+    <title>Flight Booking</title>
+</head>
+<body>
+    <div class="navbar">
+      <nav>
+     <ul>
+            <li><ins><i class="fas fa-home"></i><a href="SE main.html"> Home</a></ins></li>
+            <li><ins><i class="fas fa-users"></i><a href="SE About Us.html"> About Us</a></ins></li>
+            <li><ins><i class="fas fa-align-left"></i><a href="SE seatook.html"> Book Seat</a></ins></li>
+            <li><ins><i class="fas fa-wallet"></i><a href="SE Payment.html">Payment</a></ins></li>
+            <li><ins><i class="fas fa-phone-alt"></i><a href="SE Contact.html"> Contact</a></ins></li>
+        </ul>
+        </nav>
+    </div>
+    <div class="clearfix center">
+      <img class="logo" src="../Downloads/logo.jpeg" alt="logo" width="90" height="90">
+      <ins><h1>QUICK BOOK</h1></ins>
+      <p>(Welcome to the Online Flight Booking System.)</p>
+    </div>
+    <div class="row">
+                    <div class="col-1">
+                        <div class="form-box">
+                            <div class="form">
+                                <form class="login-form">
+                                    <center><ins><h1 class="main-heading">Login Form</h1></ins></center>
+                    <input type="text" placeholder="user name"/>
+                    <input type="password"placeholder="password"/>
+                    <button>LOGIN</button>
+                    <p class="message"> Not Registered? <ins><a href="#">  Register</a></ins></p>
+                </form>
+                               <form class="register-form">      
+               <center><h1 class="main-heading"><ins>Register Form</ins></h1></center>
+                    <input type="text" placeholder="user name"/>
+                    <input type="text" placeholder="email-id"/>
+                    <input type="password" placeholder="password"/>
+                    <button>REGISTER</button>
+                    <p class="message">Already Registered?<ins><a href="#">  Login</a></ins></p>
+                </form>
+                 </div>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+    <script>$('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+    </script>
+    <!--About us section and later will be connected to it's button-->
+
+</body>
+</html>
