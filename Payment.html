@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width" ,initial-scale="1.00">
+    <link rel="stylesheet" href="SE Payment.css">
+    <script src="https://kit.fontawesome.com/b3f2e102a1.js" crossorigin="anonymous"></script>
+    <title>Flight Booking</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><ins><i class="fas fa-home"></i><a href="SE main.html"> Home</a></ins></li>
+                <li><ins><i class="fas fa-users"></i><a href="SE About Us.html"> About Us</a></ins></li>
+                <li><ins><i class="fas fa-align-left"></i><a href="SE seatook.html"> Book Seat</a></ins></li>
+                <li><ins><i class="fas fa-wallet"></i><a href="SE Payment.html">Payment</a></ins></li>
+                <li><ins><i class="fas fa-phone-alt"></i><a href="SE Contact.html"> Contact</a></ins></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="heading">
+        <ins><h1>Payment Form:</h1></ins>
+    </div>
+    
+    <section>
+    <div class="wrapper">
+        <form method="POST">
+            <div class="input-group">
+                <div class="input-box">
+                    <h4> Full Name:</h4>
+                    </i><input type="text" placeholder="Full Name" required class="name">
+                    
+                </div>
+                <div class="input-box">
+                    <h4>Nick Name:</h4>
+                    <input type="text" placeholder="Nick Name" required class="name">
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <h4>Email:</h4>
+                    <input type="email" placeholder="Email Adress" required class="name">
+                    
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <h4>Date of Birth:</h4>
+                    <input type="text" placeholder="DD" class="dob">
+                    <input type="text" placeholder="MM" class="dob">
+                    <input type="text" placeholder="YYYY" class="dob">
+                </div>
+                <div class="input-box">
+                    <h4>Gender:</h4><br>
+                    <input type="radio" id="b1" name="gendar" checked class="radio">
+                    <label for="b1">Male</label>
+                    <input type="radio" id="b2" name="gendar" class="radio">
+                    <label for="b2">Female</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <h4>Payment Details:</h4><br>
+                    <input type="radio" name="pay" id="bc1" checked class="radio">
+                    <label for="bc1"><span><i class="fa fa-cc-visa"></i> Credit Card</span></label>
+                    <input type="radio" name="pay" id="bc2" class="radio">
+                    <label for="bc2"><span><i class="fa fa-cc-paypal"></i> Paypal</span></label>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box"><br>
+                    <h4>Card Number:</h4>
+                    <input type="tel" placeholder="Card Number" required class="name"><br>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <br><h4>Card CVC</h4>
+                    <input type="tel" placeholder="Card CVC" required class="name"><br>
+                </div>
+                <div class="input-box"><br>
+                    <select>
+                        <option>01 jun</option>
+                        <option>02 jun</option>
+                        <option>03 jun</option>
+                    </select>
+                    <select><br>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box"><br>
+                    <button type="submit">PAY NOW</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    </section>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+    <script>$('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+    </script>
+</body>
+
+</html>
